@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Meta Front-End Capstone
 =======
 # Getting Started with Create React App

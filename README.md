@@ -1,1 +1,1 @@
-# meta-front-end-capstone
+# Meta Front-End Capstone

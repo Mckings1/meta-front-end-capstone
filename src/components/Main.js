@@ -1,8 +1,10 @@
 import React from "react";
-<Routes>
+{
+  /* <Routes>
    <Route path="/" element={<HomePage />}></Route>
   <Route path="/booking" element={<BookingPage />}></Route>
-</Routes>;
+</Routes>; */
+}
 
 function Main() {
   return <main className="header">Homepage</main>;

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import image from "images";
 
 function Header() {
@@ -8,12 +9,29 @@ function Header() {
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
-          lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ipsam
-          repellat eum molestias asperiores quia reprehenderit repudiandae,
-          fugit, dolor deserunt fugiat totam culpa beatae aspernatur, ad
-          expedita eaque quasi error!
+          We are a family owned Mediterranean restaurant, focused on traditional
+          recipes served with a modern twist.
         </p>
-        <button className="reserve-button">Reserve a table</button>
+        {/* <button className="reserve-button">Reserve a table</button> */}
+        <Link to="/reservations" className="reserve-button">
+          Reserve a table
+        </Link>
+      </div>
+      <div className="header-img">
+        <img
+          className="main-image"
+          src="image6.jpg"
+          alt="fish meal"
+          width={250}
+          height={354.1}
+        ></img>
+        <img
+          className="overlay-image"
+          src="image5.jpg"
+          alt="waiter"
+          width={200}
+          height={304.1}
+        ></img>
       </div>
     </header>
   );

@@ -4,10 +4,10 @@ const Main = () => {
   return (
     <main className="main-content">
       <section className="specials-section">
-        <h2>Specials</h2>
+        <h2>Order for delivery</h2>
         <div className="specials-list">
           <div className="special-item">
-            <img src="../images/image1.jpg" alt="Greek Salad" />
+            <img src="image1.jpg" alt="Greek Salad" />
             <h3>
               Greek Salad <span>$12.99</span>
             </h3>
@@ -17,7 +17,7 @@ const Main = () => {
             </p>
           </div>
           <div className="special-item">
-            <img src="path-to-your-image" alt="Bruschetta" />
+            <img src="image2.jpg" alt="Bruschetta" />
             <h3>
               Bruschetta <span>$5.99</span>
             </h3>
@@ -27,7 +27,7 @@ const Main = () => {
             </p>
           </div>
           <div className="special-item">
-            <img src="path-to-your-image" alt="Lemon Dessert" />
+            <img src="image3.jpg" alt="Lemon Dessert" />
             <h3>
               Lemon Dessert <span>$5.00</span>
             </h3>

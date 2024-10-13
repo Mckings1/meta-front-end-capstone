@@ -1,4 +1,5 @@
 import React from "react";
+// import image from "images";
 
 function Header() {
   return (
@@ -13,9 +14,6 @@ function Header() {
           expedita eaque quasi error!
         </p>
         <button className="reserve-button">Reserve a table</button>
-      </div>
-      <div className="header-image">
-        <img src="/images/logo-image.jpg" alt="Chef cooking at Little Lemon" />
       </div>
     </header>
   );

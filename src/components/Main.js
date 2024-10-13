@@ -7,7 +7,7 @@ const Main = () => {
         <h2>Specials</h2>
         <div className="specials-list">
           <div className="special-item">
-            <img src="path-to-your-image" alt="Greek Salad" />
+            <img src="../images/image1.jpg" alt="Greek Salad" />
             <h3>
               Greek Salad <span>$12.99</span>
             </h3>

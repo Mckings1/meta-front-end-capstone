@@ -18,6 +18,7 @@ const BookingForm = () => {
   const handleTimeChange = (e) => setTime(e.target.value);
   const handleGuestsChange = (e) => setGuests(e.target.value);
   const handleOccasionChange = (e) => setOccasion(e.target.value);
+  const handleAvailableChange = (e) => setAvailableTimes(e.target.value);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,7 +38,6 @@ const BookingForm = () => {
         value={date}
         onChange={handleDateChange}
       />
-
       <label htmlFor="res-time">Choose time</label>
       <select id="res-time" value={time} onChange={handleTimeChange}>
         {availableTimes.map((timeOption, index) => (
@@ -46,7 +46,6 @@ const BookingForm = () => {
           </option>
         ))}
       </select>
-
       <label htmlFor="guests">Number of guests</label>
       <input
         type="number"
@@ -57,13 +56,12 @@ const BookingForm = () => {
         value={guests}
         onChange={handleGuestsChange}
       />
-
       <label htmlFor="occasion">Occasion</label>
       <select id="occasion" value={occasion} onChange={handleOccasionChange}>
         <option value="Birthday">Birthday</option>
         <option value="Anniversary">Anniversary</option>
       </select>
-
+      <span onChange={handleAvailableChange}></span>
       <input
         className="reservation"
         onClick={handleSubmit}

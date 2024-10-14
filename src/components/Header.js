@@ -13,7 +13,7 @@ function Header() {
           recipes served with a modern twist.
         </p>
         {/* <button className="reserve-button">Reserve a table</button> */}
-        <Link to="/reservations" className="reserve-button">
+        <Link to="/booking" className="reserve-button">
           Reserve a table
         </Link>
       </div>

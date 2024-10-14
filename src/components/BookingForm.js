@@ -26,6 +26,7 @@ const BookingForm = () => {
 
   return (
     <form
+      className="form"
       style={{ display: "grid", maxWidth: "200px", gap: "20px" }}
       onSubmit={handleSubmit}
     >
@@ -63,7 +64,12 @@ const BookingForm = () => {
         <option value="Anniversary">Anniversary</option>
       </select>
 
-      <input type="submit" value="Make Your reservation" />
+      <input
+        className="reservation"
+        onClick={handleSubmit}
+        type="submit"
+        value="Make Your reservation"
+      />
     </form>
   );
 };

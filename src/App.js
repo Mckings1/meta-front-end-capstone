@@ -12,12 +12,12 @@ function App() {
     <Router>
       <Nav />
       <Header />
-      <Main />
-      <Footer />
       <Routes>
         {/* <Route path="/" element={<HomePage />} /> */}
-        <Route path="/BookingPage.js" element={<BookingPage />} />
+        <Route path="/booking" element={<BookingPage />} />
       </Routes>
+      <Main />
+      <Footer />
     </Router>
   );
 }

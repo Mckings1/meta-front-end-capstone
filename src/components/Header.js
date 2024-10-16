@@ -13,24 +13,17 @@ function Header() {
           recipes served with a modern twist.
         </p>
         {/* <button className="reserve-button">Reserve a table</button> */}
-        <Link to="/booking" className="reserve-button">
+        <Link to="/booking" className="button-yellow">
           Reserve a table
         </Link>
       </div>
       <div className="header-img">
         <img
-          className="main-image"
-          src="image6.jpg"
-          alt="fish meal"
-          width={250}
-          height={354.1}
-        ></img>
-        <img
           className="overlay-image"
           src="image5.jpg"
           alt="waiter"
-          width={200}
-          height={304.1}
+          width={250}
+          height={354.1}
         ></img>
       </div>
     </header>
